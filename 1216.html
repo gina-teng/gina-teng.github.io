@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+</head>
+<style>
+    *{
+        scroll-behavior: smooth;
+    }
+
+body{
+   
+    
+    margin: 0;
+    font-family: "微軟正黑體";
+}
+a{
+    text-decoration: none;
+    
+}
+video{
+    width: 100%;
+    height: 90vh;
+    background-image: url("/圖片/星空拱門2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav{
+    width: 100%;
+    height: 10vh;
+    background-color:#ffcccc
+    
+}
+.nav-container{
+    width: 1140px;
+    height: 10vh;
+    /* background-color: darkblue; */
+    margin: auto;
+    position: relative;
+
+}
+.logo{
+    width: 10%;
+    height: 100%;
+    background-image: url("./圖片/50X50-LOGO.png");
+    background-size: contain;
+    /* position: absolute ; */
+    float: left;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+
+}
+.a-group{
+    width: 1000px;
+    height:100%;
+    /* background-color: brown; */
+    margin: auto;
+    float: left;
+    align-items: center;
+}
+    
+      
+
+.a-1:hover{  
+    left: 15px;
+    transition: 0.5s;  
+}
+  
+
+.a-1{
+    width: 150px;
+    height: 50px;
+    background-image: url("/圖片/會場佈置.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    float: left;
+    margin:20px 0 15px 15px;
+    
+}
+.a-2{
+    width: 150px;
+    height: 50px;
+    background-image: url("/圖片/優惠方案.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    position: relative;
+    margin:20px 0 15px 15px;
+}
+.a-2:hover{  
+    left: 15px;
+    transition: 0.5s;  
+}
+.a-3{
+    width: 150px;
+    height: 50px;
+    background-image: url("/圖片/預約流程.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    position: relative;
+    margin:20px 0 15px 15px;
+
+}
+.a-3:hover{   
+    left: 15px;
+    transition: 0.5s;   
+}
+.a-4{
+    width: 150px;
+    height: 50px;
+    background-image: url("/圖片/佈置需知.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    position: relative;
+    margin:20px 0 15px 15px;
+}
+.a-4:hover{  
+    left: 15px;
+    transition: 0.2s;   
+}
+.a-5{
+    width: 150px;
+    height: 50px;
+    background-image: url("/圖片/檔期詢問.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    position: relative;
+    margin:20px 0 15px 15px;
+}
+.a-5:hover{  
+    left: 15px;
+    transition: 0.2s;   
+}
+.a-6{
+    width: 150px;
+    height: 50px;
+    background-image: url("/圖片/線上預約.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    position: relative;
+    margin:15px 0 15px 15px;
+}
+.a-6:hover{  
+    left: 15px;
+    transition: 0.2s;   
+}
+
+
+.box1{
+    width: 100%;
+    height: 50vh;
+    background-color:#ffcccc;
+    
+}
+
+.box2{
+    width:100%;
+    height: 50vh;
+    background-color:#ffcccc;
+    
+}
+.box3{
+    width: 100%;
+    height: 50vh;
+    background-color:#ffcccc;
+    
+}
+.box4{
+    width:100%;
+    height: 50vh;
+    background-color:#ffcccc;
+    
+}
+.foot{
+    width: 100%;
+    height: 20vh;
+    background-color: brown;
+    position: static;
+    margin: auto;
+}
+
+.foot-top{
+    width: 100%;
+    height: 50%;
+    background-color:gold;
+    float: left;
+}
+
+.icon-group{
+    width: 30%;
+    height: 10vh;
+    background-color: aqua;
+    margin: auto;
+
+}
+.fb{
+    width: 70px;
+    height: 70px;
+    background-color: bisque;
+    background-image: url("/圖片/fb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin:20px 0 15px 15px;
+
+}
+
+
+.foot-bot{
+    width: 100%;
+    height: 50%;
+    background-image: url("/圖片/版權.png");
+    float: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.gotop{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: fixed;
+    background-image:url("./圖片/top-1.png");
+    right: 100px;
+    bottom: 50px;
+    background-size: contain;
+}
+
+
+
+
+</style>
+<body>
+    <video id="video-a" src="/影片/星空馬車.mp4" autoplay loop></video>
+    
+<div class="nav" data-aos="fade-up-right">
+    <div class="nav-container">
+        <div class="logo"></div>
+        <div class="a-group">
+            <a href="#box1-a"><div class="a-1"></div></a>
+            <a href="#box2-a"><div class="a-2"></div></a>
+            <a href="#box3-a"><div class="a-3"></div></a>
+            <a href="#box4-a"><div class="a-4"></div></a>
+            <a href=""><div class="a-5"></div></a>
+            <a href="https://docs.google.com/forms/d/1SsBwhJJt2yCazFigNerNeYCxeyWWS2IQ9L8HYw5vNI4"><div class="a-6"></div></a>
+            
+        </div>
+       
+    </div>
+</div>
+<div id="box1-a" class="box1"></div>
+<div id="box2-a" class="box2" data-aos="fade-up-right"></div>
+<div id="box3-a" class="box3" ></div>
+<div id="box4-a" class="box4" data-aos="fade-right"></div>
+<div class="foot">
+    <div class="foot-top">
+        <div class="icon-group">
+        <a href=""><div class="fb"></div></a>
+        <a href=""><div class="line"></div></a>
+        <a href=""><div class="marry"></div></a>
+    </div>
+
+    </div>
+    
+    
+    
+    <div class="foot-bot"></div>
+
+</div>
+<a href="#video-a"><div class="gotop"></div></a>
+
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
